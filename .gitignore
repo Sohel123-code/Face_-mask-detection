@@ -1,0 +1,26 @@
+# Virtual Environments
+venv/
+venv311/
+env/
+.env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+Untitled.ipynb
+
+# Datasets (Large image folders)
+with_mask/
+without_mask/
+
+# Extra models (if not used by app.py)
+face_mask_detector.keras
+
+# OS Files
+.DS_Store
+Thumbs.db
